@@ -1,0 +1,262 @@
+body{
+  font-family: serif;
+  background-color: #F5F5F5;
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+    
+    margin: auto;
+    background-color: #10473f;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  margin-right: 100px;
+  }
+  .nav-item{
+    border: 1px;
+   
+    font-size: 30px;
+    border-radius: 10px;
+    
+    margin: 5px;
+ 
+
+  }
+
+  .nav-item a:hover {
+   color: red;
+    
+  }
+  a:hover{
+    text-decoration-line: none;
+  }
+  .nav-link{
+    font-size: 20px;
+    padding: auto;
+    color: black;
+    
+  }
+  .nav-item dropdown{
+    right: 0px;
+  }
+  .container{
+width: 95%;
+height: auto;
+background-color: white;
+margin: auto;
+    }
+    .img{
+      width: 100%;
+      height: 450px;
+    }
+    
+    .p{
+      font-size: 20px;
+  
+      color: black;
+    }
+   .product-color {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .product-color span {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #fa880e;
+  }
+
+  .blue {
+    background: #ffffff;
+  }
+
+  .black {
+    background: #000;
+  }
+
+  .red {
+    background: #0000ff;
+  }
+
+  .product-color .active::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #888;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+  }
+.chedobaohanh {
+    display: block;
+    margin: 15px 0;
+  }
+
+  .chedobaohanh span {
+    font-size: 15px;
+  }
+
+  .cdbh {
+    
+    width: 170px;
+    height: 33px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+.btn1 {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+.btn-warning{
+  background: yellow;
+}
+.p2 {
+  color: red;
+  font-size: 20px;
+}
+.sp{
+  width: 30%;
+}
+.sp2{
+  width: 70%;
+}
+.sp3{
+  font-size: 15px;
+}
+.dtnb {
+  display: block;
+  overflow: hidden;
+ 
+  width: 85%;
+  margin: auto;
+}
+
+.dtnb h5 {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.xemdtnb {
+  float: right;
+  display: block;
+}
+
+.xemdtnb span {
+  vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  color: #288ad6;
+  padding: 14px 10px;
+}
+
+.xemdtnb span:hover a {
+  color: #fd4505;
+}
+.box {
+  transition: box-shadow .3s;
+  width: 200px;
+  height: 350px;
+  margin: auto 11px 10px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+  
+}
+.box:hover {
+  box-shadow:1px 0px 11px 6px rgba(0,0,0,0.49);border:0;
+}
+.container1 {
+  position: relative;
+ 
+}
+
+.img1 {
+  display: block;
+  width: 100%;
+  height: 200px;
+  margin-top: 10px
+}
+.star-checked{
+  color: yellow;
+}
+.pdLabel.sale {
+    background: #2b1c1c;
+    padding: 0px 30px;
+    background-size: contain;
+    font-size: 13px;
+    border-radius: 20px;
+}
+.pdLabel, .topLabel {
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    z-index: 1;
+    padding: 5px 3px;
+    background: rgba(28, 107, 138, 0.5);
+    color: #ff0427;
+    margin: 1px;
+    text-align: center;
+}
+.p1{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+  text-decoration
+:
+
+none;
+}
+.tieude{
+  font-size: 30px;
+  color: red;
+  text-align: center;
+}
+.tieude1{
+  color: black;
+  font-weight: 600;
+  margin: auto;
+  font-size: 20px;
+}
+.ts{
+  width: 40%;
+}
+
+
+.more {display: block;}
+.fa-facebook-f{
+  color: white;
+}
+.fa-instagram{
+  color: white;
+}
+.fa-user{
+  color: white;
+}
+.navbar-brand img {
+    height: 70px;
+    float: left;
+    margin-left: 175px;
+}
+.col-sm-4 img{
+  height: 65px;
+}
