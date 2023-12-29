@@ -199,9 +199,6 @@ require_once('D:\xampp\htdocs\doAn_1\web\admin\config\db.php');
 
                            $sql = "SELECT * FROM `sanph1` LIMIT $start, $Sl";
                             $result = mysqli_query($conn,$sql);
-                            if (!$result) {
-                               die("invalid query!");
-                            } 
                             while ( $row = mysqli_fetch_assoc($result)) {                              
                                 $id=$row['sanPh_id'];
                                 $name=$row['name'];
